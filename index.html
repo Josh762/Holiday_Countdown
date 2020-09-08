@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body onload="initializeHolidaySelection()">
+    <h1>How long until</h1>
+    
+    <div id="holiday-container">
+        <p id="holiday-name" class="holiday-name">New Years Day</p>
+        <!-- <input  id="holiday-input"
+            autocomplete="off" 
+            class="holiday-name" 
+            type="text"
+            onkeydown="typeahead(event)"
+            > -->
+    </div>
+    
+    <div class="timer-container">
+        
+        <!-- <div class="time-unit-outer-container">
+            <h2 class="time-unit-inner-container" id="months"></h2>
+            <h2 class="time-unit-inner-container" >Months</h2>
+        </div> -->
+        <div class="time-unit-outer-container">
+            <p class="time-unit-inner-container big-text" id="days"></p>
+            <h2 class="time-unit-inner-container" >Days</h2>
+        </div>
+        <div class="time-unit-outer-container">
+            <p class="time-unit-inner-container big-text" id="hours"></p>
+            <h2 class="time-unit-inner-container" >Hours</h2>
+        </div>
+        <div class="time-unit-outer-container">
+            <p class="time-unit-inner-container big-text" id="minutes"></p>
+            <h2 class="time-unit-inner-container">Minutes</h2>
+        </div>
+        <div class="time-unit-outer-container">
+            <p class="time-unit-inner-container big-text" id="seconds"></p>
+            <h2 class="time-unit-inner-container">Seconds</h2>
+        </div>
+        
+        
+        
+        
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
